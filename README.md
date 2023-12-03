@@ -19,10 +19,11 @@ treb7uchet
 
 Dans cet exemple, les valeurs d'étalonnage de ces quatre lignes sont `12, 38, 15 et 77`. Les additionner donne `142`.
 
-Considère l'ensemble de ton document d'étalonnage. Quelle est la somme de toutes les valeurs d'étalonnage ?
+En prenant en compte la liste complète inclue dans `fullList.js`, quelle est la somme de toutes les valeurs d'étalonnage ?
 
-## Enoncé guidé
-
+## Guide supplémentaire
+<details><summary>Déplier</summary>
+  
 > Deux fichiers modules contenant les strings sont inclus dans le repo et déjà appelés par `app.js`. Le fichier `list.js` contenant la liste exemple ci-dessus est appelé dans la variable `list`, et devra être utilisé en premier afin de vérifier le fonctionnement du code. Si celui-ci retourne bien le résultat attendu de `142`, on pourra utiliser la variable `fullList` contenant la liste complète incorporée dans `fullList.js`.
 
 ### Utiliser la variable `list` dans un premier temps
@@ -34,7 +35,7 @@ Considère l'ensemble de ton document d'étalonnage. Quelle est la somme de tout
 5. Mets à jour la somme total à chaque ligne parcourue.<details><summary>Astuce</summary><sub>Utilise l'opérateur `+=` pour ajouter la somme de la ligne à la somme totale.</sub></details>
 6. Obtenir la somme totale dans la console et vérifier le bon résultat.<details><summary>Résultat attendu</summary>`142`</details>
 
-### Utiliser la variable `fullList`
+### Utiliser la variable `fullList` si le code fonctionne
 
 Faire passer la liste complète dans le code et obtenir le résultat dans la console.
 Comparez votre résultat avec le résultat attendu :<details><summary>Résultat attendu</summary>`53974`</details>
